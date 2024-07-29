@@ -1,0 +1,7 @@
+[container.image]
+# repository = "gcr.io/cloudrun/hello"
+# name = "gcr.io/cloudrun/hello"
+
+[[container.copy.files]]
+sourceFile = "./file/message.txt"
+target = "./file/message.txt"
